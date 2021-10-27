@@ -22,7 +22,7 @@ pipeline {
                 script {
                    echo 'deploying docker image...'
                 
-                   sh 'kubectl create deployment nginx-deployment --image=nginx'
+                   
                  
                 }
             }
